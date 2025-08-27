@@ -53,7 +53,7 @@ const ContactPage = () => {
       // flatten all branches from all regions into one array
       const branches = Object.values(response.data.regions).flat();
 
-      setBranchesData(branches); // now it's a flat array of branches
+      setBranchesData(branches); 
       console.log("Accumulated branches:", branches);
     } catch (error) {
       toast.error("Failed to fetch branches");
