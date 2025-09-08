@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 import { getProducts } from "../Api";
 
 const herobg =
-  "https://res.cloudinary.com/dinb6qtto/image/upload/v1747327037/fuelme/eunqurz5ywlilv9qris7.png";
+  "https://res.cloudinary.com/dvadtratp/image/upload/v1747327037/bestpointgh/eunqurz5ywlilv9qris7.png";
 
 const categoryMap = {
   loans: "Loans",

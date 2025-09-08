@@ -3,7 +3,7 @@ import Hero from '../components/About/Hero'
 import StoriesArticlesGallery from '../components/Stories/Articles'
 import { Helmet } from 'react-helmet-async'
 
-const heroBg ="https://res.cloudinary.com/dinb6qtto/image/upload/v1747327033/fuelme/tlimnbsaqc9mweziayjl.png"
+const heroBg ="https://res.cloudinary.com/dvadtratp/image/upload/v1747327033/bestpointgh/tlimnbsaqc9mweziayjl.png"
 function Stories() {
   return (
     <div>

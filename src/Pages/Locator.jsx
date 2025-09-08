@@ -7,7 +7,7 @@ import BranchDirectory from "../components/BranchesDirectory";
 import { getBranches } from "../Api";
 import { toast } from "react-toastify";
 
-const locatorImage = "https://res.cloudinary.com/dinb6qtto/image/upload/v1747327047/fuelme/iblul8yo03tibszef3mk.png";
+const locatorImage = "https://res.cloudinary.com/dvadtratp/image/upload/v1747327047/bestpointgh/iblul8yo03tibszef3mk.png";
 
 function Locator() {
   const [branches, setBranches] = useState({});

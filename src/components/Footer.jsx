@@ -18,7 +18,7 @@ import dpc from "../images/logo/dpc.jpg";
 import { Link, NavLink } from "react-router-dom";
 
 const phone =
-  "https://res.cloudinary.com/dinb6qtto/image/upload/v1747327026/fuelme/p47umizhkt9u3xh60rwi.png";
+  "https://res.cloudinary.com/dvadtratp/image/upload/v1747327026/bestpointgh/p47umizhkt9u3xh60rwi.png";
 
 const Footer = () => {
   return (

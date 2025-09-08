@@ -1,5 +1,5 @@
 import React from 'react';
-const video = "https://res.cloudinary.com/dinb6qtto/image/upload/v1747327037/fuelme/alnskzzb5ond5r0ofxpi.gif"
+const video = "https://res.cloudinary.com/dvadtratp/image/upload/v1747327037/bestpointgh/alnskzzb5ond5r0ofxpi.gif"
 
 const BackgroundVideo = () => {
   return (

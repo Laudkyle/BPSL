@@ -6,7 +6,7 @@ import { getTeamMembers } from "../Api";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
-const heroBg = "https://res.cloudinary.com/dinb6qtto/image/upload/v1747327037/fuelme/eunqurz5ywlilv9qris7.png";
+const heroBg = "https://res.cloudinary.com/dvadtratp/image/upload/v1747327037/bestpointgh/eunqurz5ywlilv9qris7.png";
 
 export default function AboutDetails() {
   const { id } = useParams();

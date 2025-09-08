@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet-async";
 import { Link } from 'react-router-dom'
 import { getProducts } from "../Api";
 
-const heroBg = "https://res.cloudinary.com/dinb6qtto/image/upload/v1747327037/fuelme/eunqurz5ywlilv9qris7.png";
+const heroBg = "https://res.cloudinary.com/dvadtratp/image/upload/v1747327037/bestpointgh/eunqurz5ywlilv9qris7.png";
 
 function Products() {
   const { category, title } = useParams();
@@ -90,7 +90,7 @@ function Products() {
                 className="rounded-3xl overflow-hidden shadow-xl w-full h-[300px] sm:h-[400px] lg:h-[500px] relative"
               >
                 <img
-                  src={product.image || "https://res.cloudinary.com/dinb6qtto/image/upload/v1747331399/om9zpjrtrgfvw0wtbueo.png"}
+                  src={product.image || "https://res.cloudinary.com/dvadtratp/image/upload/v1747331399/om9zpjrtrgfvw0wtbueo.png"}
                   alt={product.title}
                   className="w-full h-full object-fit md:object-cover absolute inset-0 transition-transform duration-500"
                 />

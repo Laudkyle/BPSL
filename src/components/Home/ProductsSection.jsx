@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "./ProductsCarousel";
 
-const box ="https://res.cloudinary.com/dinb6qtto/image/upload/v1747327025/fuelme/xu2eijamud3w80onsnry.png"
+const box ="https://res.cloudinary.com/dvadtratp/image/upload/v1747327025/bestpointgh/xu2eijamud3w80onsnry.png"
 
 
 function ProductsSection() {

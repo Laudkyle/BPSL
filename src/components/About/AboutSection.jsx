@@ -1,7 +1,7 @@
 import marks from "../../images/general icons/marks.png";
 import TeamSection from "./TeamTabs";
 
-const bg="https://res.cloudinary.com/dinb6qtto/image/upload/v1747327023/fuelme/u5eb6cxpatpki8txxvwh.png"
+const bg="https://res.cloudinary.com/dvadtratp/image/upload/v1747327023/bestpointgh/u5eb6cxpatpki8txxvwh.png"
 const AboutSection = () => {
   return (
     <div className="py-12 text-gray-800">
