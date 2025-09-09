@@ -4,8 +4,7 @@ import { useInView } from "react-intersection-observer";
 import { CheckCircle } from "lucide-react";
 import phone from "../../images/footer vectors/Group 11.png";
 import { NavLink } from "react-router-dom";
-const bgPhone =
-  "https://res.cloudinary.com/dvadtratp/image/upload/v1747327026/bestpointgh/skwirty3fuvgggxncotn.png";
+const bgPhone ='./images/bg-phone.png'
 function UssdBannerMobile() {
   const controls = useAnimation();
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
