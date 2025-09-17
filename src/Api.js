@@ -79,8 +79,7 @@ export const applicationMail = (data) => api.post("/submit-application", data);
 export const getCustomers = () => api.get("/customer-counts");
 export const getCustomer = (id) => api.get("/customer-counts/latest");
 export const createCustomer = (data) => api.post("/customer-counts", data);
-export const updateCustomer = (id, data) =>
-  api.put(`/customer-counts/${id}`, data);
+export const updateCustomer = (id, data) => api.put(`/customer-counts/${id}`, data);
 export const deleteCustomer = (id) => api.delete(`/customer-counts/${id}`);
 
 // ===================== Reports =====================
