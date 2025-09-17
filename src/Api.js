@@ -72,7 +72,6 @@ export const getNotice = (id) => api.get(`/notices/${id}`);
 export const createNotice = (data) => api.post("/notices", data);
 export const updateNotice = (id, data) => api.put(`/notices/${id}`, data);
 export const deleteNotice = (id) => api.delete(`/notices/${id}`);
-
 export const mail = (data) => api.post("/mail", data);
 export const applicationMail = (data) => api.post("/submit-application", data);
 
