@@ -45,10 +45,8 @@ sudo apt install -y certbot python3-certbot-nginx
 
 ### Move the domain to your Droplet
 
-Go to your domain registrar/DNS provider.
-
-Change the A record for bestpointgh.com and www.bestpointgh.com → point it to your Droplet IP.
-
-Wait for DNS propagation (can take minutes to hours).
+Change the A record for bestpointgh.com and www.bestpointgh.com -> point it to the Droplet IP on sitegrounds.
+216.198.79.1 -> 138.68.158.54 (www.bestpointgh.com)
+216.198.79.1 -> 138.68.158.54 (bestpointgh.com)
 
 sudo certbot --nginx -d bestpointgh.com -d www.bestpointgh.com
