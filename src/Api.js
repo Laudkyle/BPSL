@@ -92,8 +92,7 @@ export const deleteReport = (id) => api.delete(`/report/${id}`);
 export const getArticles = () => api.get("/content/articles");
 export const getArticle = (id) => api.get(`/content/articles/${id}`);
 export const createArticle = (data) => api.post("/content/articles", data);
-export const updateArticle = (id, data) =>
-  api.put(`/content/articles/${id}`, data);
+export const updateArticle = (id, data) => api.put(`/content/articles/${id}`, data);
 export const deleteArticle = (id) => api.delete(`/content/articles/${id}`);
 
 // ===================== Blogs =====================
