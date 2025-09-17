@@ -13,7 +13,7 @@ export default function ApplicationForm({ career }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Basic validation
+    // Validation
     if (!name || !phone || !email || !fileUrl) {
       alert("Please fill all fields and upload your file");
       return;
