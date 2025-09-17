@@ -44,7 +44,7 @@ export default function ApplicationForm({ career }) {
     }
   };
 
-  
+
   return (
     <div className="flex items-center justify-center bg-white px-4">
       <form onSubmit={handleSubmit} className="w-full max-w-xl space-y-6">
