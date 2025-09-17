@@ -3,6 +3,7 @@ import FileUpload from "./FileUpload";
 import { applicationMail } from "../Api";
 import { toast} from "react-toastify";
 
+
 export default function ApplicationForm({ career }) {
   const [file, setFile] = useState(null);
   const [fileUrl, setFileUrl] = useState("");
