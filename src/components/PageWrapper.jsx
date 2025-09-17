@@ -7,7 +7,6 @@ const pageVariants = {
   exit: { opacity: 0.7, y: -10, scaleX:1.1,transition: { duration: 0.3, ease: "easeIn" } },
 };
 
-
 const PageWrapper = ({ children }) => {
   return (
     <motion.div
