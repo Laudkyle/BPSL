@@ -43,10 +43,10 @@ const BankingMenu = () => {
             </li>
             <li>
               <Link
-                to={"/products/business/Cash Backed Loans"}
+                to={"/products/loans/Best Quick Loan"}
                 className="block text-sm px-2 hover:bg-white/90 rounded-lg transition-transform duration-300 hover:scale-[1.03]"
               >
-              Cash Backed Loans
+              Best Quick Loan
               </Link>
             </li>
           </ul>
