@@ -141,18 +141,18 @@ export default function ArticleDetail() {
               )}
               
               <div className="grid grid-cols-1 lg:grid-cols-7 p-2 gap-y-12 mt-12">
-                <div className="col-span-4 p-2">
+                <div className="p-2">
                   {article.subTitle && (
                     <h1 className="text-purple text-lg font-bold mb-2">
                       {article.subTitle}
                     </h1>
                   )}
-                  <p className="text-sm font-extralight">{article.story || article.content}</p>
+                  {/* <p className="text-sm font-extralight">{article.story || article.content}</p> */}
                 </div>
                 {(article.img || article.images?.[0]) && (
                   <img
                     src={article.img || article.images[0]}
-                    className="col-span-3 h-full m-2 rounded-lg w-full object-fit md:object-cover"
+                    className="col-span-7 h-full m-2 rounded-lg w-full object-fit md:object-cover"
                     alt="Article illustration"
                   />
                 )}
