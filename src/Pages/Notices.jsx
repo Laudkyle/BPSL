@@ -20,9 +20,9 @@ function Notices() {
         setLoading(true);
         const response = await getNotices();
         setNotices(response.data || []);
-        console.log(response.data)
+        console.log(response.data);
       } catch (error) {
-        toast.error('Failed to fetch notices');
+        toast.error("Failed to fetch notices");
         setNotices([]);
       } finally {
         setLoading(false);
@@ -31,12 +31,12 @@ function Notices() {
 
     fetchNotices();
   }, []);
-useEffect(() => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth", 
-  });
-}, [currentPage]);
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [currentPage]);
 
   const filteredNotices = notices
     .filter((n) =>
@@ -151,15 +151,23 @@ useEffect(() => {
                 <h2 className="font-semibold text-purple-100 mb-2">
                   {notice.title || "Untitled Notice"}
                 </h2>
-                <p className="text-sm text-gray-600 whitespace-pre-wrap">
-                  {notice.description || "No description available"}
-                </p>
+                  <p className="text-gray-700 whitespace-pre-wrap mb-6">
+                    {notice.description
+                      ? notice.description
+                          .replace(/\\n/g, "\n") // convert literal "\n" to real newlines
+                          .split(" ") // split into words
+                          .slice(0, 10) // take the first 10 words
+                          .join(" ") + "..." // join back and add ellipsis
+                      : "No description available"}
+                  </p>
               </div>
             </Link>
           ))
         ) : (
           <div className="text-gray-500 col-span-full text-center">
-            {notices.length ? "No notices match your filters" : "No notices found"}
+            {notices.length
+              ? "No notices match your filters"
+              : "No notices found"}
           </div>
         )}
       </div>

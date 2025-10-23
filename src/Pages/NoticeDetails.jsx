@@ -118,7 +118,7 @@ function NoticeDetails() {
           />
         )}
         <p className="text-gray-700 whitespace-pre-wrap mb-6">
-          {notice.description}
+          {notice.description.replace(/\\n/g, '\n')}
         </p>
         {notice.file_url && (
           <div className="flex gap-2">
