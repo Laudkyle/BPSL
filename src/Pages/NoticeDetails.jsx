@@ -120,6 +120,7 @@ function NoticeDetails() {
         <p className="text-gray-700 whitespace-pre-wrap mb-6">
           {notice.description.replace(/\\n/g, "\n")}
         </p>
+        
         {/* Related Links */}
 
         {notice.links && notice.links.length > 0 && (
