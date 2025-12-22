@@ -192,27 +192,41 @@ const Footer = () => {
             <div className="grid grid-cols-3 grid-rows-2 gap-y-2 text-lg w-3/5">
               {/* Facebook */}
               <Link to="https://www.facebook.com/bestpointsl/" target="_blank">
-                <FaFacebookF className="bg-gradient-to-b from-purple to-purple-200 p-2 rounded-full w-6 h-6 md:w-8 md:h-8 hover:bg-gradient-to-tr" />
+                <FaFacebookF
+                  className="text-[#1877F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#1877F2] hover:text-white transition-all duration-300"
+                />
               </Link>
 
               {/* Instagram */}
               <Link to="https://www.instagram.com/bestpointsl/" target="_blank">
-                <FaInstagram className="bg-gradient-to-b from-purple to-purple-200 p-2 rounded-full w-6 h-6 md:w-8 md:h-8 hover:bg-gradient-to-tr" />
+                <FaInstagram
+                  className="p-2 rounded-full w-6 h-6 md:w-8 md:h-8 bg-white transition-all duration-300
+        hover:bg-gradient-to-tr hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF]"
+                  style={{
+                    backgroundClip: "text",
+                    WebkitBackgroundClip: "text",
+                    color: "transparent",
+                    backgroundImage:
+                      "linear-gradient(45deg, #F58529, #DD2A7B, #8134AF)",
+                  }}
+                />
               </Link>
-
-              {/* TikTok
-              <Link to="https://www.tiktok.com/@bestpointsl" target="_blank">
-                <FaTiktok className="bg-gradient-to-b from-purple to-purple-200 p-2 rounded-full w-6 h-6 md:w-8 md:h-8 hover:bg-gradient-to-tr" />
-              </Link> */}
 
               {/* YouTube */}
               <Link to="https://www.youtube.com/@bestpointsl" target="_blank">
-                <FaYoutube className="bg-gradient-to-b from-purple to-purple-200 p-2 rounded-full w-6 h-6 md:w-8 md:h-8 hover:bg-gradient-to-tr" />
+                <FaYoutube
+                  className="text-[#FF0000] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#FF0000] hover:text-white transition-all duration-300"
+                />
               </Link>
 
-              {/* Twitter */}
+              {/* Twitter / X */}
               <Link to="https://x.com/bestpointsl" target="_blank">
-                <FaTwitter className="bg-gradient-to-b from-purple to-purple-200 p-2 rounded-full w-6 h-6 md:w-8 md:h-8 hover:bg-gradient-to-tr" />
+                <FaTwitter
+                  className="text-[#1DA1F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#1DA1F2] hover:text-white transition-all duration-300"
+                />
               </Link>
 
               {/* LinkedIn */}
@@ -220,7 +234,10 @@ const Footer = () => {
                 to="https://www.linkedin.com/company/bestpointsl"
                 target="_blank"
               >
-                <FaLinkedin className="bg-gradient-to-b from-purple to-purple-200 p-2 rounded-full w-6 h-6 md:w-8 md:h-8 hover:bg-gradient-to-tr" />
+                <FaLinkedin
+                  className="text-[#0A66C2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#0A66C2] hover:text-white transition-all duration-300"
+                />
               </Link>
             </div>
           </div>
