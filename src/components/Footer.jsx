@@ -190,56 +190,43 @@ const Footer = () => {
               <p className="mb-2 font-thin text-xs hover:font-light">Awards</p>
             </Link>{" "}
             <div className="grid grid-cols-3 grid-rows-2 gap-y-2 text-lg w-3/5">
-              {/* Facebook */}
-              <Link to="https://www.facebook.com/bestpointsl/" target="_blank">
-                <FaFacebookF
-                  className="text-[#1877F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
-      hover:bg-[#1877F2] hover:text-white transition-all duration-300"
-                />
-              </Link>
+  {/* Facebook */}
+  <Link to="https://www.facebook.com/bestpointsl/" target="_blank">
+    <FaFacebookF className="text-[#1877F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#1877F2] hover:text-white transition-all duration-300" />
+  </Link>
 
-              {/* Instagram */}
-              <Link to="https://www.instagram.com/bestpointsl/" target="_blank">
-                <FaInstagram
-                  className="p-2 rounded-full w-6 h-6 md:w-8 md:h-8 bg-white transition-all duration-300
-        hover:bg-gradient-to-tr hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF]"
-                  style={{
-                    backgroundClip: "text",
-                    WebkitBackgroundClip: "text",
-                    color: "transparent",
-                    backgroundImage:
-                      "linear-gradient(45deg, #F58529, #DD2A7B, #8134AF)",
-                  }}
-                />
-              </Link>
+ <Link to="https://www.instagram.com/bestpointsl/" target="_blank" rel="noreferrer">
+  <span
+    className="inline-flex items-center justify-center rounded-full p-2 w-6 h-6 md:w-8 md:h-8
+               bg-white transition-all duration-300
+               hover:bg-gradient-to-tr hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF]"
+  >
+    <FaInstagram className="w-6 h-6 md:w-8 md:h-8 text-[#E4405F] hover:text-white transition-all duration-300" />
+  </span>
+</Link>
 
-              {/* YouTube */}
-              <Link to="https://www.youtube.com/@bestpointsl" target="_blank">
-                <FaYoutube
-                  className="text-[#FF0000] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
-      hover:bg-[#FF0000] hover:text-white transition-all duration-300"
-                />
-              </Link>
 
-              {/* Twitter / X */}
-              <Link to="https://x.com/bestpointsl" target="_blank">
-                <FaTwitter
-                  className="text-[#1DA1F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
-      hover:bg-[#1DA1F2] hover:text-white transition-all duration-300"
-                />
-              </Link>
 
-              {/* LinkedIn */}
-              <Link
-                to="https://www.linkedin.com/company/bestpointsl"
-                target="_blank"
-              >
-                <FaLinkedin
-                  className="text-[#0A66C2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
-      hover:bg-[#0A66C2] hover:text-white transition-all duration-300"
-                />
-              </Link>
-            </div>
+  {/* YouTube */}
+  <Link to="https://www.youtube.com/@bestpointsl" target="_blank">
+    <FaYoutube className="text-[#FF0000] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#FF0000] hover:text-white transition-all duration-300" />
+  </Link>
+
+  {/* Twitter / X */}
+  <Link to="https://x.com/bestpointsl" target="_blank">
+    <FaTwitter className="text-[#1DA1F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#1DA1F2] hover:text-white transition-all duration-300" />
+  </Link>
+
+  {/* LinkedIn */}
+  <Link to="https://www.linkedin.com/company/bestpointsl" target="_blank">
+    <FaLinkedin className="text-[#0A66C2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#0A66C2] hover:text-white transition-all duration-300" />
+  </Link>
+</div>
+
           </div>
 
           {/* E-Banking */}
