@@ -122,6 +122,7 @@ function NoticeDetails() {
 
         </p>
         {/* Related Links */}
+        
 {notice.links && notice.links.length > 0 && (
   <div className="mb-6">
     <h3 className="text-lg font-semibold text-gray-800 mb-2">
