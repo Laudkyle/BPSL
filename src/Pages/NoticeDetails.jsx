@@ -118,33 +118,32 @@ function NoticeDetails() {
           />
         )}
         <p className="text-gray-700 whitespace-pre-wrap mb-6">
-          {notice.description.replace(/\\n/g, '\n')}
-
+          {notice.description.replace(/\\n/g, "\n")}
         </p>
         {/* Related Links */}
-        
-{notice.links && notice.links.length > 0 && (
-  <div className="mb-6">
-    <h3 className="text-lg font-semibold text-gray-800 mb-2">
-      Related Links
-    </h3>
 
-    <ul className="space-y-2">
-      {notice.links.map((link, index) => (
-        <li key={index}>
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-purple-700 hover:text-purple-900 underline break-all"
-          >
-            {link}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </div>
-)}
+        {/* {notice.links && notice.links.length > 0 && ( */}
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-gray-800 mb-2">
+              Related Links
+            </h3>
+
+            <ul className="space-y-2">
+              {notice.links.map((link, index) => (
+                <li key={index}>
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-purple-700 hover:text-purple-900 underline break-all"
+                  >
+                    {link}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        {/* )} */}
 
         {notice.file_url && (
           <div className="flex gap-2">
@@ -194,8 +193,6 @@ function NoticeDetails() {
                 >
                   Office Viewer
                 </button>
-                
-          
               </div>
               <button
                 onClick={() => {
