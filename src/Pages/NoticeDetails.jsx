@@ -44,7 +44,6 @@ function NoticeDetails() {
   };
 
   // Function to get appropriate viewer URL
-  // Add this to your viewer options
   const getViewerUrl = (fileUrl, viewer) => {
     const encodedUrl = encodeURIComponent(fileUrl);
 
