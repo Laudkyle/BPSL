@@ -14,7 +14,7 @@ import logo from "../images/logo/logo-p.png";
 import bgMap from "../images/footer vectors/map-bg.png";
 import wire from "../images/footer vectors/wire.png";
 import bog from "../images/logo/bog.png";
-import dpc from "../images/logo/dpcgh.jpg";
+import dpcgh from "../images/logo/dpcgh.jpg";
 import { Link, NavLink } from "react-router-dom";
 
 const phone =
@@ -293,7 +293,7 @@ const Footer = () => {
           <div className="flex flex-row gap-2">
             <img src={bog} alt="BOG LOGO" className="w-8 h-8 rounded-full" />
 
-            <img src={dpc} alt="DPC LOGO" className="w-8 h-8 rounded-full" />
+            <img src={dpcgh} alt="DPC LOGO" className="w-8 h-8 rounded-full" />
           </div>
           <p>Copyright © 2025 – All Rights Reserved</p>
           <div className="flex gap-4 z-10">
