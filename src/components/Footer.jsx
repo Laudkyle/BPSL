@@ -14,7 +14,7 @@ import logo from "../images/logo/logo-p.png";
 import bgMap from "../images/footer vectors/map-bg.png";
 import wire from "../images/footer vectors/wire.png";
 import bog from "../images/logo/bog.png";
-import dpc from "../images/logo/dpc.jpg";
+import dpc from "../images/logo/dpcgh.jpg";
 import { Link, NavLink } from "react-router-dom";
 
 const phone =
