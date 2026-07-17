@@ -15,6 +15,7 @@ import bgMap from "../images/footer vectors/map-bg.png";
 import wire from "../images/footer vectors/wire.png";
 import bog from "../images/logo/bog.png";
 import dpcgh from "../images/logo/dpc.jpg";
+import gdpc from "../images/logo/dpcg.jpg";
 import { Link, NavLink } from "react-router-dom";
 
 const phone =
@@ -303,18 +304,32 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-white/70 gap-3">
           <div className="flex flex-row gap-2">
-            <img src={bog} alt="BOG LOGO" className="w-8 h-8 rounded-full" />
-            <a
-              href="https://gdpc.gov.gh/site/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={dpcgh}
-                alt="DPCGH LOGO"
-                className="w-8 h-8 rounded-full"
-              />
-            </a>
+         <div className="flex flex-row gap-2">
+  <a
+    href="https://www.bog.gov.gh/"  // Replace with actual BOG URL
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cursor-pointer relative z-10"
+  >
+    <img src={bog} alt="BOG LOGO" className="w-8 h-8 rounded-full" />
+  </a>
+  <a
+    href="https://gdpc.gov.gh/site/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cursor-pointer relative z-10"
+  >
+    <img src={dpcgh} alt="DPCGH LOGO" className="w-8 h-8 rounded-full" />
+  </a>
+  <a
+    href="https://www.dataprotection.org.gh/"  // Replace with actual Ghana Data Protection URL
+    target="_blank"
+    rel="noopener noreferrer"
+    className="cursor-pointer relative z-10"
+  >
+    <img src={gdpc} alt="GDPC LOGO" className="w-8 h-8 rounded-full" />
+  </a>
+</div>
           </div>
           <p>Copyright © 2025 – All Rights Reserved</p>
           <div className="flex gap-4 z-10">
