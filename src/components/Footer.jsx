@@ -190,43 +190,55 @@ const Footer = () => {
               <p className="mb-2 font-thin text-xs hover:font-light">Awards</p>
             </Link>{" "}
             <div className="grid grid-cols-3 grid-rows-2 gap-y-2 text-lg w-3/5">
-  {/* Facebook */}
-  <Link to="https://www.facebook.com/bestpointsl/" target="_blank">
-    <FaFacebookF className="text-[#1877F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
-      hover:bg-[#1877F2] hover:text-white transition-all duration-300" />
-  </Link>
+              {/* Facebook */}
+              <Link to="https://www.facebook.com/bestpointsl/" target="_blank">
+                <FaFacebookF
+                  className="text-[#1877F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#1877F2] hover:text-white transition-all duration-300"
+                />
+              </Link>
 
- <Link to="https://www.instagram.com/bestpointsl/" target="_blank" rel="noreferrer">
-  <span
-    className="inline-flex items-center justify-center rounded-full p-2 w-6 h-6 md:w-8 md:h-8
+              <Link
+                to="https://www.instagram.com/bestpointsl/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span
+                  className="inline-flex items-center justify-center rounded-full p-2 w-6 h-6 md:w-8 md:h-8
                bg-white transition-all duration-300
                hover:bg-gradient-to-tr hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF]"
-  >
-    <FaInstagram className="w-6 h-6 md:w-8 md:h-8 text-[#E4405F] hover:text-white transition-all duration-300" />
-  </span>
-</Link>
+                >
+                  <FaInstagram className="w-6 h-6 md:w-8 md:h-8 text-[#E4405F] hover:text-white transition-all duration-300" />
+                </span>
+              </Link>
 
+              {/* YouTube */}
+              <Link to="https://www.youtube.com/@bestpointsl" target="_blank">
+                <FaYoutube
+                  className="text-[#FF0000] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#FF0000] hover:text-white transition-all duration-300"
+                />
+              </Link>
 
+              {/* Twitter / X */}
+              <Link to="https://x.com/bestpointsl" target="_blank">
+                <FaTwitter
+                  className="text-[#1DA1F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#1DA1F2] hover:text-white transition-all duration-300"
+                />
+              </Link>
 
-  {/* YouTube */}
-  <Link to="https://www.youtube.com/@bestpointsl" target="_blank">
-    <FaYoutube className="text-[#FF0000] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
-      hover:bg-[#FF0000] hover:text-white transition-all duration-300" />
-  </Link>
-
-  {/* Twitter / X */}
-  <Link to="https://x.com/bestpointsl" target="_blank">
-    <FaTwitter className="text-[#1DA1F2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
-      hover:bg-[#1DA1F2] hover:text-white transition-all duration-300" />
-  </Link>
-
-  {/* LinkedIn */}
-  <Link to="https://www.linkedin.com/company/bestpointsl" target="_blank">
-    <FaLinkedin className="text-[#0A66C2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
-      hover:bg-[#0A66C2] hover:text-white transition-all duration-300" />
-  </Link>
-</div>
-
+              {/* LinkedIn */}
+              <Link
+                to="https://www.linkedin.com/company/bestpointsl"
+                target="_blank"
+              >
+                <FaLinkedin
+                  className="text-[#0A66C2] bg-white p-2 rounded-full w-6 h-6 md:w-8 md:h-8 
+      hover:bg-[#0A66C2] hover:text-white transition-all duration-300"
+                />
+              </Link>
+            </div>
           </div>
 
           {/* E-Banking */}
@@ -292,8 +304,17 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center text-xs text-white/70 gap-3">
           <div className="flex flex-row gap-2">
             <img src={bog} alt="BOG LOGO" className="w-8 h-8 rounded-full" />
-
-            <img src={dpcgh} alt="DPC LOGO" className="w-8 h-8 rounded-full" />
+            <a
+              href="https://gdpc.gov.gh/site/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={dpcgh}
+                alt="DPCGH LOGO"
+                className="w-8 h-8 rounded-full"
+              />
+            </a>
           </div>
           <p>Copyright © 2025 – All Rights Reserved</p>
           <div className="flex gap-4 z-10">
